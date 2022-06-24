@@ -21,11 +21,9 @@ if __name__ == '__main__':
 
 print('======= поиск  строковой константы =========')
 
-def iterating_over_a_string_constant():
-    str_a = 'аша'
-    for s, t in  my_list:
-        if s.find('аша') == 1:
-            print(s)
-        if t.find(str_a) ==1:
-            print(t)
-iterating_over_a_string_constant()
+Strings = ['Абрикос', 'Авокадо', 'Айва', 'Алыча', 'Амбарелла', 'Абрикос', 'Ананас', 'Апельсин', 'Арахис', 'Арбуз']
+
+if __name__ == '__main__':
+    y = 'Айва'
+    for x in  Strings:
+        print(x, y, compare(x, y))
